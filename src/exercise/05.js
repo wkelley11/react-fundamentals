@@ -24,17 +24,18 @@ function Box({className = '', size, style, ...props}) {
 }
 function App() {
   return (
-    <>
+    <div>
     <Box size="small" style={{backgroundColor: 'lightblue'}}>
       small lightblue box
     </Box>
     <Box size="medium" style={{backgroundColor: 'pink'}}>
-      small lightblue box
+      medium pink box
     </Box>
     <Box size="large" style={{backgroundColor: 'orange'}}>
-      small lightblue box
+      large orange box
     </Box>
-    </>
+    <Box>sizeless box</Box>
+    </div>
   )
 }
 
